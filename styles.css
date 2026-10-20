@@ -451,10 +451,10 @@ h2 {
   background: var(--red);
   color: var(--cream);
   font-family: var(--poster);
-  font-size: 10px;
+  font-size: 8px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  padding: 3px 6px 2px;
+  padding: 3px;
   vertical-align: 2px;
 }
 
@@ -615,6 +615,7 @@ h2 {
   .zones,
   .toc { grid-template-columns: 1fr; }
   .qa-h h3 { font-size: 26px; font-weight: 700; }
+  .qa-h { margin-bottom: 8px; }
   .qa-a { margin-left: 0; font-size: 20px; }
   .qa-n { width: 24px; height: 24px; font-size: 14px; }
   .bill li {
@@ -623,12 +624,10 @@ h2 {
   }
   .bill .leader { display: none; }
   .bill-act {
-    flex-shrink: 0;
-    min-width: max-content;
     font-size: 20px;
   }
   .tariff li { flex-wrap: wrap; }
-  .tariff .leader { min-width: 12px; }
+  .tariff .leader { min-width: 4px; }
   .dateband { font-size: 11px; letter-spacing: 0.04em; padding: 10px 8px; }
   .line-red { font-size: 38px; text-align: center; }
   .line-black { font-size: 26px; }
