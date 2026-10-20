@@ -614,18 +614,18 @@ h2 {
   .sheet-body { padding: 8px 16px 4px; }
   .zones,
   .toc { grid-template-columns: 1fr; }
-  .qa-h h3 { font-size: 22px; }
-  .qa-a { margin-left: 0; font-size: 14px; }
+  .qa-h h3 { font-size: 24px; font-weight: 700; }
+  .qa-a { margin-left: 0; font-size: 18px; }
   .qa-n { width: 24px; height: 24px; font-size: 14px; }
   .bill li {
-    display: grid;
-    grid-template-columns: 110px 1fr;
-    gap: 2px 8px;
+    display: flex;
+    justify-content: space-between;
   }
   .bill .leader { display: none; }
   .bill-act {
-    max-width: none;
-    font-size: 16px;
+    flex-shrink: 0;
+    min-width: max-content;
+    font-size: 18px;
   }
   .tariff li { flex-wrap: wrap; }
   .tariff .leader { min-width: 12px; }
@@ -635,11 +635,11 @@ h2 {
   .place { font-size: 20px; }
   .mast-art img { transform: scale(1.2); }
   .price-sum { font-size: 38px; }
-  .bill time { font-size: 14px; }
+  .bill time { font-size: 16px; }
   .lede { font-size: 16px; }
-  .tariff-when { font-size: 18px; }
-  .tariff-sum { font-size: 14px; }
-  .fine { font-size: 14px; }
+  .tariff-when { font-size: 20px; }
+  .tariff-sum { font-size: 16px; }
+  .fine { font-size: 16px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
