@@ -638,7 +638,7 @@ h2 {
   .lede { font-size: 18px; }
   .tariff-when { font-size: 20px; }
   .tariff-sum { font-size: 18px; }
-  .fine { font-size: 18px; }
+  .fine { font-size: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
